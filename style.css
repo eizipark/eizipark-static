@@ -5,7 +5,7 @@ html{
 *{
   font-size: 22px;
   color: #ddd;
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Varela Round', sans-serif;
 }
 h3, p {
   padding-bottom: 30px;
@@ -23,6 +23,9 @@ hr {
 }
 .text-white{
   color:white;
+}
+.text-black{
+  color:black;
 }
 
 
@@ -73,6 +76,10 @@ hr {
 
 .bg-gray{
   background:#333;
+}
+
+.bg-white{
+  background:white;
 }
 
 .bg-gray-light{
@@ -171,6 +178,7 @@ hr {
 }
 
 .form-field{
+  font-size: 0.9em;
   color: black;
   padding: 5px 10px;
   margin: 10px 0px;
@@ -195,17 +203,17 @@ hr {
 }
 
 .footer h4{
-  color: white;
+  color: black;
   margin:0px 15px;
   padding:0px;
 }
 
 .footer a:hover{
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: 900;
 }
 .footer i{
-  color:white;
-  font-size: 2em
+  color:black;
+  font-size: 1.5em
 }
